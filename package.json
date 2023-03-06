@@ -1,6 +1,7 @@
 {
   "name": "cat",
   "version": "0.1.0",
+  "homepage":"https://mohitdixit02.github.io/cat-click-project/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
