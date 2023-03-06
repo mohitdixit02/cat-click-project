@@ -1,0 +1,16 @@
+.cat_data{
+    display: flex;
+    column-gap: 5vw;
+}
+.cat_name{
+    width: 150px;
+    height: 25px;
+    overflow: hidden;
+}
+.clicks_no{
+    background-color: rgb(70, 70, 70);
+    border-radius: 18px;
+    color: white;
+    padding: 0px 10px;
+    font-size: 15px;
+}
