@@ -1,0 +1,86 @@
+.form_holder{
+    width: 25vw;
+    height: 300px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 18px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+/* top form */
+.top_form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.top_form input{
+    justify-content: center;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+    outline: none;
+    width:96%;
+    height: 40px;
+}
+
+input[type='file']::file-selector-button{
+    border: 0;
+    margin-right: 12px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+input[type='file']::file-selector-button:hover{
+    background-color: rgb(109, 109, 109);
+}
+.bttn_holder{
+    margin-top: 28px;
+    display: flex;
+    column-gap: 10px;
+}
+
+/* Buttons */
+.blue_bttn{
+    cursor: pointer;
+    width: 120px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+}
+.blue_bttn:hover{
+    background-color: rgb(0, 0, 204);
+}
+.red_bttn{
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+}
+.red_bttn:hover{
+    background-color:rgb(202, 0, 0);
+}
+.green_bttn{
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    color: white;
+    background-color:rgb(32, 190, 32);
+    border: 0;
+    border-radius: 5px;
+}
+.green_bttn:hover{
+    background-color:green;
+}

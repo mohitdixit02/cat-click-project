@@ -11,9 +11,9 @@ function App() {
       <div className="top_header">
         <Leftnav/>
         <Info/>
-        <Gallery/>
+        <Form/>
       </div>
-      <Form/>
+        <Gallery/>
     </div>
   );
 }
