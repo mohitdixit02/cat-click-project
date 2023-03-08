@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/cat-click-project/static/css/main.4624759d.css",
-    "main.js": "/cat-click-project/static/js/main.cfdf40f5.js",
+    "main.css": "/cat-click-project/static/css/main.db335328.css",
+    "main.js": "/cat-click-project/static/js/main.6e6c0119.js",
     "static/js/787.66ddd28f.chunk.js": "/cat-click-project/static/js/787.66ddd28f.chunk.js",
+    "static/media/c1.jpeg": "/cat-click-project/static/media/c1.f0810a814021b8b8a8d8.jpeg",
     "index.html": "/cat-click-project/index.html",
-    "main.4624759d.css.map": "/cat-click-project/static/css/main.4624759d.css.map",
-    "main.cfdf40f5.js.map": "/cat-click-project/static/js/main.cfdf40f5.js.map",
+    "main.db335328.css.map": "/cat-click-project/static/css/main.db335328.css.map",
+    "main.6e6c0119.js.map": "/cat-click-project/static/js/main.6e6c0119.js.map",
     "787.66ddd28f.chunk.js.map": "/cat-click-project/static/js/787.66ddd28f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4624759d.css",
-    "static/js/main.cfdf40f5.js"
+    "static/css/main.db335328.css",
+    "static/js/main.6e6c0119.js"
   ]
 }
