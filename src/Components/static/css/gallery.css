@@ -1,0 +1,31 @@
+.heading_gallery{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+}
+.gallery_holder{
+    margin: 20px 0px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+.gallery_holder_flex{
+    display: flex;
+    column-gap: 50px;
+}
+.cat_gallry{
+    background-color:rgb(230, 230, 230);
+    border-radius: 8px;
+    height: 340px;
+    width: 20vw;
+    cursor: pointer;
+}
+.gallery_img_holder{
+    width: 100%;
+    height: 60%;
+}
+.gallery_img_holder img{
+    height: 100%;
+    width: 100%;
+}

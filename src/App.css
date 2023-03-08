@@ -1,9 +1,15 @@
 .App{
-  padding: 18px;
+  padding: 18px;  
+}
+.main_heading{
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+  padding-bottom: 15px;
 }
 
 .top_header{
   display: flex;
   justify-content: center;
-  column-gap: 15vw;
+  column-gap: 6vw;
 }
