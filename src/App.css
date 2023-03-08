@@ -13,3 +13,9 @@
   justify-content: center;
   column-gap: 6vw;
 }
+
+@media screen and (max-width:690px) {
+  .top_header{
+    flex-direction: column;
+  }
+}

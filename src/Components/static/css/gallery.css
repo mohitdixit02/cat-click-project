@@ -29,3 +29,22 @@
     height: 100%;
     width: 100%;
 }
+
+@media screen and (max-width:990px) {
+    .gallery_img_holder{
+        height: 50%;
+    }
+    .cat_gallry{
+        height: 250px;
+        width: 20vw;
+    }
+    .cat_age{
+        font-size: 5px;
+    }
+    .cat_click_no{
+        font-size: 5px;
+    }
+    .info_name_cat{
+        font-size: 5px;
+    }
+  }

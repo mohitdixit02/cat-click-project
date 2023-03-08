@@ -1,7 +1,7 @@
 .info_holder{
     background-color:rgb(230, 230, 230);
     border-radius: 8px;
-    height: 30vw;
+    height: 480px;
     width: 38vw;
 }
 .cat_img_holder{
@@ -11,6 +11,7 @@
 .cat_img_holder img{
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 .info_name_cat{
     font-weight: bold;
@@ -28,4 +29,14 @@
     font-size: 17px;
     font-style: italic;
     padding-left: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .info_holder{
+        height: 320px;
+        width: 38vw;
+    }
+    .cat_img_holder{
+        height: 60%;
+    }
 }
