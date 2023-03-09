@@ -30,33 +30,99 @@
     width: 100%;
 }
 
-@media screen and (max-width:990px) {
+.cat_gallry{
+    height: 250px;
+    width: 20vw;
+}
+.cat_age_gallery{
+    margin-top: 8px;
+    font-size: 15px;
+    padding-left: 11px;
+}
+.cat_click_no_gallery{
+    font-size: 15px;
+    padding-left: 11px;
+}
+.info_name_cat_gallery{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
     .gallery_img_holder{
-        height: 50%;
+        height: 60%;
     }
     .cat_gallry{
-        height: 250px;
-        width: 20vw;
+        height: 180px;
+        width: 18vw;
     }
-    .cat_age{
-        font-size: 5px;
+    .cat_age_gallery{
+        font-size: 10px;
     }
-    .cat_click_no{
-        font-size: 5px;
+    .cat_click_no_gallery{
+        font-size: 10px;
     }
-    .info_name_cat{
-        font-size: 5px;
+    .info_name_cat_gallery{
+        font-size: 14px;
     }
   }
 
-  @media screen and (max-width:690px) {
+  @media screen and (max-width:780px) {
     .gallery_holder{
+        margin-left: 0px;
         flex-direction: row;
         justify-content: center;
-        column-gap: 30%;
+        column-gap: 15%;
     }
     .gallery_holder_flex{
         flex-direction: column;
         row-gap: 45px;
+    }
+    .gallery_img_holder{
+        height: 65%;
+    }
+    .cat_gallry{
+        height: 250px;
+        width: 35vw;
+    }
+    .cat_age_gallery{
+        font-size: 12px;
+    }
+    .cat_click_no_gallery{
+        font-size: 12px;
+    }
+    .info_name_cat_gallery{
+        font-size: 18px;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .respn_holder_gallery{
+        display: flex;
+        justify-content: center;
+    }
+    .gallery_holder{
+        flex-direction:column;
+        justify-content: center;
+    }
+    .gallery_holder_flex{
+        flex-direction: column;
+        row-gap: 45px;
+    }
+    .gallery_img_holder{
+        height: 70%;
+    }
+    .cat_gallry{
+        height: 300px;
+        width: 60vw;
+    }
+    .cat_age_gallery{
+        font-size: 14px;
+    }
+    .cat_click_no_gallery{
+        font-size: 14px;
+    }
+    .info_name_cat_gallery{
+        font-size: 18px;
     }
   }
