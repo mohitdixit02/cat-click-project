@@ -8,7 +8,6 @@ const Form = (props) => {
     // New Form function
     function newForm(e) {
         e.preventDefault();
-
     }
 
     // Submit Function
@@ -49,40 +48,6 @@ const Form = (props) => {
             })
         }
         reader.readAsDataURL(img_cat);
-
-
-
-        // set(ref(db, 'cats_data/' + name + '/'), {
-        //     'name': name,
-        //     'click': click,
-        //     'img_cat': string_array,
-        // })
-
-        // props.setActvCat({
-        //     'name': name,
-        //     'click': click,
-        //     'img_cat': string_array,
-        // })
-
-        //     // converting img to bas64 String
-        //     const reader = new FileReader();
-        // reader.onloadend = () => {
-        //     let string_temp = reader.result;
-        //     let string_array = string_temp.split('/')
-
-        //     //Setting data in firebase
-        //     set(ref(db, 'cats_data/' + name + '/'), {
-        //         'name': name,
-        //         'click': click,
-        //         'img_cat': string_array,
-        //     });
-        //     props.setActvCat({
-        //         'name': name,
-        //         'click': click,
-        //         'img_cat': string_array,
-        //     })
-        // }
-        // reader.readAsDataURL(img_cat);
 
         let form = document.getElementById('cat_form');
         form.reset();

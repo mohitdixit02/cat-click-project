@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import db from '../firebase/firebase';
 import { ref, onValue } from 'firebase/database'
 import './static/css/gallery.css'
+import {clickupdate, ageValue} from './utility'
 
-const Gallery = () => {
+const Gallery = (props) => {
     const [gallery_array, setGallery] = useState([]);
 
     useEffect(() => {
@@ -28,6 +29,25 @@ const Gallery = () => {
             setGallery(final_arr);
         })
     }, []);
+
+    // Update Clicks and Cat
+    function updateClicks(e){
+        let targ_name=e.target.id;
+        gallery_array.forEach(elem=>{
+            elem.map(value=>{
+                if(value['name']==targ_name){
+                    clickupdate(targ_name,value['click']);
+                    props.setActvCat({
+                        'name':targ_name,
+                        'click':parseInt(value['click'])+1,
+                        'img_cat':value['img_cat']
+                    })
+                }
+            })
+        })
+        document.documentElement.scrollTop=0;
+    }
+
     return (
         <div>
             <div className='heading_gallery'>~ Cats Image Gallery ~</div>
@@ -49,9 +69,9 @@ const Gallery = () => {
                                             <div className="cat_gallry" key={value['name']}>
                                                 <div className="info_name_cat">{value['name']}</div>
                                                 <div className="gallery_img_holder">
-                                                    <img src={img_url} alt="" />
+                                                    <img src={img_url} alt="" id={value['name']} onClick={updateClicks}/>
                                                 </div>
-                                                <div className="cat_age"><strong>Current Age : </strong>Old Age</div>
+                                                <div className="cat_age"><strong>Current Age : </strong>{ageValue(parseInt(value['click']))}</div>
                                                 <div className="cat_click_no"><strong>No of Clicks : </strong>{value['click']}</div>
                                             </div>
                                         )

@@ -15,10 +15,10 @@ function App() {
       <br />
       <div className="top_header">
         <Leftnav actv_cat={actv_cat} setActvCat={setActvCat}/>
-        <Info actv_cat={actv_cat}/>
+        <Info actv_cat={actv_cat} setActvCat={setActvCat}/>
         <Form actv_cat={actv_cat} setActvCat={setActvCat}/>
       </div>
-        <Gallery/>
+        <Gallery setActvCat={setActvCat}/>
     </div>
   );
 }
