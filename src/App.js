@@ -7,18 +7,20 @@ import { useState } from 'react';
 
 
 function App() {
-  const [actv_cat,setActvCat] = useState('');
+  const [actv_cat, setActvCat] = useState('');
   return (
     <div className="App">
       <h1 className='main_heading'>Cat Clicks Project</h1>
-      <hr style={{'border':'1px','height':'2px','backgroundColor':'black'}} />
+      <hr style={{ 'border': '1px', 'height': '2px', 'backgroundColor': 'black' }} />
       <br />
-      <div className="top_header">
-        <Leftnav actv_cat={actv_cat} setActvCat={setActvCat}/>
-        <Info actv_cat={actv_cat} setActvCat={setActvCat}/>
-        <Form actv_cat={actv_cat} setActvCat={setActvCat}/>
+      <div className="respn_holder">
+        <div className="top_header">
+          <Leftnav actv_cat={actv_cat} setActvCat={setActvCat} />
+          <Info actv_cat={actv_cat} setActvCat={setActvCat} />
+          <Form actv_cat={actv_cat} setActvCat={setActvCat} />
+        </div>
       </div>
-        <Gallery setActvCat={setActvCat}/>
+      <Gallery setActvCat={setActvCat} />
     </div>
   );
 }

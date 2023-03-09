@@ -3,7 +3,7 @@
     height: 34px;
 }
 .cat_name{
-    width: 220px;
+    width: 200px;
     overflow: hidden;
     padding: 0px 12px;
     padding-top: 3px;
@@ -27,8 +27,17 @@
 }
 
 
+@media screen and (max-width:800px) {
+    .cat_name{
+        width: 140px;
+    }
+  }
+
 @media screen and (max-width:970px) {
-  .cat_name{
-    width: 150px;
+  .list-group-item{
+    width: 100%;
+  }
+  .cat_data{
+    column-gap: 30%;
   }
 }

@@ -17,5 +17,10 @@
 @media screen and (max-width:690px) {
   .top_header{
     flex-direction: column;
+    row-gap: 45px;
+  }
+  .respn_holder{
+    display: flex;
+    justify-content: center;
   }
 }

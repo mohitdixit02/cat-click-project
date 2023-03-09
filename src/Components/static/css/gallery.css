@@ -48,3 +48,15 @@
         font-size: 5px;
     }
   }
+
+  @media screen and (max-width:690px) {
+    .gallery_holder{
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 30%;
+    }
+    .gallery_holder_flex{
+        flex-direction: column;
+        row-gap: 45px;
+    }
+  }
